@@ -5,7 +5,7 @@ async function testEnabled() {
         
 
 async function testforload() {
-    if ( testEnabled() ) {
+    if ( testEnabled() == true ) {
         console.log("[nhax] Not enabled, exiting...");
         function sleep(ms) {
             return new Promise(resolve => setTimeout(resolve, ms));
